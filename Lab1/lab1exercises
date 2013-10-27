@@ -1,0 +1,11 @@
+1.) a. In order to run the server you should type  in the terminal python manage.py runserver.
+The URL it goes to is http://127.0.0.1:8000/.
+
+b. The URL is http://127.0.0.1:8000/movies/1/.
+The URL of the 2nd movie will be http://127.0.0.1:8000/movies/2/, and the 100th movie's URL will be http://127.0.0.1:8000/movies/100/ .
+
+c. http://127.0.0.1:8000/movies/addmovie ===> add_movie
+http://127.0.0.1:8000/movies/5/ ===> movie
+http://127.0.0.1:8000/shrek ===> You'll get an error, becuse there is no regular expression for such a URL.
+
+3.) d. ii. We canghed action="movies/addmovie" to action="movies/addcomment" because the form calls the url movies/addcomment in urls.py, whick calls the function add_comment in views.py.
