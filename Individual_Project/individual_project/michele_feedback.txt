@@ -1,0 +1,5 @@
+Thanks for sending along the video, circuit diagram, and software. I love how you commented the code - it makes it so easy to read! Your demo video was incredibly clear and I understand exactly what your program does. 
+
+Arduino is not an easy thing to learn, so you should be proud of figuring out how it all works by yourself and making something real. If you have a Youtube account, you should definitely upload your demo video to your Youtube account because it’s something to show off about. Figuring out a new language (and for loops, and arrays / lists, and variables in a new language) is not an easy thing to do, so you should be proud of yourself for figuring it out.
+
+One thing I would suggest with your code is to think about whether all of your code needs to go in the setup() loop. Right now the way you have it, your application will only ask the user ONCE for a number. But it would be a fairly easy fix to continue asking the user for 4 binary digits. 
